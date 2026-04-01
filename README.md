@@ -5,7 +5,7 @@
 # 🌟 Key Features
 - Rapid Announcement Templates:
 - Pre-built layouts for office news, event invites, and "running late" updates.
-- Massive Icon Engine: A searchable grid of 1,000+ icons that can be swapped into any template with one click.
+- Massive Icon Engine: A searchable grid of 500+ icons that can be swapped into any template with one click.
 - Live Edit Preview: Users can modify text and icons in a real-time "What You See Is What You Get" (WYSIWYG) interface.
 - Smart Copy for Outlook: Integrated JavaScript logic that packages the rich HTML/CSS design for a perfect paste directly into the Outlook desktop or web app.
 - Responsive Email Logic: Uses table-based HTML architecture to ensure designs don't break in the Outlook rendering engine.
