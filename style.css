@@ -157,7 +157,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
 
 /* Your existing hover (keep this too!) */
 #icon-display-circle:hover {
-    transform: scale(1.05);
+    transform: scale(2.05);
     background-color: #edebe9;
     transition: transform 0.2s ease;
 }
@@ -231,7 +231,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
 
     border-radius: 50px !important; 
     background: #ffffff !important;
-    padding: 8px 8px !important;
+    padding: 2px 2px !important;
     font-size: 14px !important;
     border: 1px solid #d1d1d1 !important;
     
