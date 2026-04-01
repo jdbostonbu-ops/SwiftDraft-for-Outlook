@@ -1,6 +1,6 @@
 # SwiftDraft for Outlook 
 
-⚡SwiftDraft for Outlook is a high-speed, web-based email template engine designed to bridge the gap between professional design and everyday communication. It allows users to instantly generate high-impact announcements using a library of 1,000+ interchangeable icons.This project is built for demonstration purposes, showcasing a concept that could be adapted as a native Microsoft Outlook Add-in.
+⚡SwiftDraft for Outlook is a high-speed, web-based email template engine designed to bridge the gap between professional design and everyday communication. It allows users to instantly generate high-impact announcements using a library of 500+ interchangeable icons.This project is built for demonstration purposes, showcasing a concept that could be adapted as a native Microsoft Outlook Add-in.
 
 # 🌟 Key FeaturesRapid Announcement Templates:
 Pre-built layouts for office news, event invites, and "running late" updates.Massive Icon Engine: A searchable grid of 1,000+ icons that can be swapped into any template with one click.Live Edit Preview: Users can modify text and icons in a real-time "What You See Is What You Get" (WYSIWYG) interface.Smart Copy for Outlook: Integrated JavaScript logic that packages the rich HTML/CSS design for a perfect paste directly into the Outlook desktop or web app.Responsive Email Logic: Uses table-based HTML architecture to ensure designs don't break in the Outlook rendering engine.
