@@ -17,7 +17,7 @@
 
 # 🚀 The WorkflowSelect: 
 - Choose a pre-made announcement template from the SwiftDraft gallery.
-- Customize: Browse the 1,000+ icons and click to swap them into the design.Refine: Edit the text fields directly in the browser.
+- Customize: Browse the 500+ icons and click to swap them into the design.Refine: Edit the text fields directly in the browser.
 - Transfer: Click "Copy Template" to trigger the JavaScript clipboard function.
 - Draft: Open a New Message in Outlook and Paste (Ctrl+V) to create a professional draft instantly.
 
