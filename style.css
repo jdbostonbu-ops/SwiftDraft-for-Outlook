@@ -96,7 +96,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
 .icon-item:hover {
     background-color: #0078d4;
     color: white;
-    transform: translateY(-3px);
+    transform: translateY(-3px) !important;
     box-shadow: 0 4px 8px rgba(0,120,212,0.3);
 }
 
@@ -124,7 +124,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
 }
 
 #icon-display:hover {
-    transform: scale(1.05); /* Slight pop when hovering the template icon */
+    transform: scale(1.05) !important; /* Slight pop when hovering the template icon */
     background-color: #e1dfdd;
 }
 
@@ -139,7 +139,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
     display: flex !important; /* Web display (Outlook uses table-cell above) */
     align-items: center;
     justify-content: center;
-    transition: transform 0.2s ease, background-color 0.2s;
+    transition: transform 0.2s ease, background-color 0.2s !important;
     cursor: default;
 }
 
@@ -151,8 +151,8 @@ h1 { color: #0078d4; } /* Outlook Blue */
 
 /* The Class JavaScript adds/removes */
 .pop-effect {
-    animation: iconPop 0.3s ease-out;
-    color: #0078d4; /* Optional: flashes Outlook blue during the pop */
+    animation: iconPop 0.3s ease-out !important;
+    color: #0078d4 !important; /* Optional: flashes Outlook blue during the pop */
 }
 
 /* Your existing hover (keep this too!) */
@@ -231,7 +231,8 @@ h1 { color: #0078d4; } /* Outlook Blue */
 
     border-radius: 50px !important; 
     background: #faf9f8;
-    border: 1px solid #edebe9 !important; 
+    border: 1px solid #edebe9 !important;
+    transform: scale(1.05) !important;
 
 }
 
