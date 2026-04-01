@@ -218,5 +218,11 @@ h1 { color: #0078d4; } /* Outlook Blue */
     to { opacity: 1; transform: translateY(0); }
 }
 
+.main-container {
+    width: 95%;          /* Occupy most of the screen width */
+    max-width: 1200px;   /* But don't let it get ridiculously wide */
+    margin: 0 auto;      /* Keep it centered */
+}
+
 
 
