@@ -100,6 +100,49 @@ templateButtons.forEach(button => {
 });
 
 
+
+const editableFields = document.querySelectorAll('[contenteditable="true"]');
+const wordCountDisplay = document.getElementById('word-count-display');
+
+// The function that calculates the words
+function updateWordCount() {
+    let combinedText = "";
+
+    // Loop through both the Title and the Body to get all text
+    editableFields.forEach(field => {
+        combinedText += " " + field.innerText;
+    });
+
+    // Clean up the text: trim spaces and split by any whitespace
+    const words = combinedText.trim().split(/\s+/).filter(word => word.length > 0);
+    const count = words.length;
+
+    // Update the HTML display
+    wordCountDisplay.innerText = `Words: ${count}`;
+
+    // Optional: Visual cue if they go over 50 words
+    if (count > 50) {
+        wordCountDisplay.style.color = "#d83b01"; // Outlook Error Red
+        wordCountDisplay.style.fontWeight = "bold";
+    } else {
+        wordCountDisplay.style.color = "#605e5c"; // Standard Grey
+        wordCountDisplay.style.fontWeight = "normal";
+    }
+}
+
+// Attach the "input" listener to each field
+editableFields.forEach(field => {
+    field.addEventListener('input', updateWordCount);
+});
+
+// Run once on page load so it shows the initial count
+updateWordCount();
+
+
+
+
+
+
 resetBtn.addEventListener('click', () => {
     const h1 = emailCanvas.querySelector('h1');
     const p = emailCanvas.querySelector('p');

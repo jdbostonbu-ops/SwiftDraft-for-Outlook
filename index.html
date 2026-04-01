@@ -13,7 +13,7 @@
     <section class="preview-area">
         <header class="workspace-header">
             <h1 style="font-size: 80px;">SwiftDraft Workspace</h1>
-             <p style="font-size: 30px;">Select a template, edit, swap icons, and copy to your clipboard.</p>
+            <p style="font-size: 30px;">Select a template, edit, swap icons, and copy to your clipboard.</p>
         </header>
 
         
@@ -21,6 +21,9 @@
         <section class="preview-area">
             <h2>Email Preview</h2>
             
+       <div class="guidance-bar">
+        ✨ <b>SwiftDraft Tip:</b> Type your message below, then select an icon from the library to customize your announcement.
+       </div>
             <!-- This container is what the JS will target for copying -->
             <div id="email-canvas">
                
@@ -46,11 +49,19 @@
 </h1>
 
 <!-- BODY SECTION -->
-<p contenteditable="true" style="margin: 0;">
-    <span style="font-family: 'Segoe UI', Arial, sans-serif; color: #605e5c; font-size: 28px; line-height: 1.4;">
-        Click here to edit your message. This announcement is designed to look great in Outlook!
+
+<p id="editableParagraph" contenteditable="true" style="margin: 0;">
+    <span id="textInput" style="font-family: 'Segoe UI', Arial, sans-serif; color: #605e5c; font-size: 28px; line-height: 1.4;">
+    Enter your text here to edit your message. This announcement is designed to look great in Outlook!
     </span>
 </p>
+
+<div class="status-bar">
+    <span id="word-count-display">Words: 0</span> / 50 (Recommended)
+</div>
+
+
+
 
 
                             </td>
