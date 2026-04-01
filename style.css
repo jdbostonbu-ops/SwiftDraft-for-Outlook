@@ -227,7 +227,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
     margin: 0 auto;      /* Keep it centered */
 }
 
-.template-btn {
+.template-btn .template-btn:hover {
 
     border-radius: 50px !important; 
     background: #faf9f8;
