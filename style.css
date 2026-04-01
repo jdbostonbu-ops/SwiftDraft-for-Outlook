@@ -227,12 +227,15 @@ h1 { color: #0078d4; } /* Outlook Blue */
     margin: 0 auto;      /* Keep it centered */
 }
 
-.template-btn .template-btn:hover {
+#template-btn {
 
     border-radius: 50px !important; 
-    background: #faf9f8;
+    background: #ffffff;
     border: 1px solid #edebe9 !important;
-    transform: scale(1.05) !important;
+    
 
 }
+#template-btn:hover {
+    transform: scale(1.05) !important;
+    }
 
