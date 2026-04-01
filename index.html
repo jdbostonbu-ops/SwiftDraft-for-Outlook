@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SwiftDraft for Outlook | Templates</title>
+</head>
+<body>
+<div class="main-container">
+    <!-- TOP: Workspace -->
+    <section class="preview-area">
+        <header class="workspace-header">
+            <h1 style="font-size: 80px;">SwiftDraft Workspace</h1>
+            <p style="font-size: 30px;">Select a template, edit, swap icons, and copy to your clipboard.</p>
+        </header>
+
+        
+        <!-- SECTION: TEMPLATE PREVIEW -->
+        <section class="preview-area">
+            <h2>Email Preview</h2>
+            
+       <div class="guidance-bar">
+        ✨ <b>SwiftDraft Tip:</b> Type your message below, then select an icon from the library to customize your announcement.
+       </div>
+            <!-- This container is what the JS will target for copying -->
+            <div id="email-canvas">
+               
+                <!-- Outlook-safe table structure -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center">
+                    <table class="template-table" width="1000" border="0" cellspacing="0" cellpadding="40" style="background-color: #ffffff; border: none; border-radius: 8px;">
+                        <tr>
+                            <td align="center">
+                                
+                                <!-- ICON DISPLAY: The Hero Element -->
+                                <div id="icon-display-circle" style="background-color: #f3f2f1; width: 100px; height: 100px; border-radius: 50%; display: table-cell; vertical-align: middle; text-align: center;">
+                                    <span id="current-icon" style="font-size: 50px; line-height: 100px;">📢</span>
+                                </div>
+
+                                <!-- TEXT CONTENT: Editable Fields -->
+                               <!-- TITLE SECTION -->
+<h1 contenteditable="true" style="margin-top: 25px; margin-bottom: 10px; margin-left: 0; margin-right: 0;">
+    <span style="font-family: 'Segoe UI', Arial, sans-serif; font-weight: 800; color: #0078d4; font-size: 60px; line-height: 1.1;">
+        Announcement Title
+    </span>
+</h1>
+
+<!-- BODY SECTION -->
+<p contenteditable="true" style="margin: 0;">
+    <span style="font-family: 'Segoe UI', Arial, sans-serif; color: #605e5c; font-size: 28px; line-height: 1.4;">
+        Click here to edit your message. This announcement is designed to look great in Outlook!
+    </span>
+</p>
+
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <button id="copy-btn">Copy for Outlook</button> 
+    <button id="reset-btn" style="background-color: #f3f2f1; color: #323130; border: 1px solid #d1d1d1; padding: 5px 5px; font-size: 12px; font-weight: 600; border-radius: 5px; margin-top: 6px; cursor: pointer;">
+        Reset Template
+    </button>
+    <!-- Notification Box -->
+   <div id="copy-toast" class="toast-message" style="display:none;">
+    🚀 <b>Perfect Paste:</b> If the font looks small after pasting, look for the <b>Paintbrush icon</b> (Keep Source Formatting) in the bottom corner of Outlook to restore the SwiftDraft look.
+</div>
+
+</section>
+        <!-- SECTION: ICON PICKER -->
+        <section class="icon-explorer">
+            <div class="template-picker">
+        <h3>Choose a Template</h3>
+        <div class="template-options">
+            <button class="template-btn active" data-type="announcement">📢 Announcement</button>
+            <button class="template-btn" data-type="invite">📅 Event Invite</button>
+            <button class="template-btn" data-type="alert">⚠️ Urgent Alert</button>
+            <button class="template-btn" data-type="congrats">🎉 Congratulations</button>
+        </div>
+            </div>
+        <div class="tray-header">
+            <h2>Icon Library <span class="count-badge">542 Icons</span></h2>
+            <div class="filter-controls">
+                <input type="text" id="icon-search" placeholder="Search by name...">
+                <select id="category-select">
+                    <option value="All">All Categories</option>
+                    <option value="Communication">Communication</option>
+                    <option value="Office">Office</option>
+                    <option value="Tech">Tech</option>
+                    <option value="Success">Success</option>
+                    <option value="People">People</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Transport">Transport</option>
+                    <option value="Time">Time</option>
+                    <option value="Symbols">Symbols</option>
+                    <option value="Nature">Nature</option>
+                    <option value="Health">Health</option>
+                    <option value="Home">Home</option>
+                </select>
+            </div>
+        </div>
+        <div id="icon-grid"></div>
+    </section>
+</div>
+
+   
+    <script type="module" src="main.js"></script>
+</body>
+</html>
