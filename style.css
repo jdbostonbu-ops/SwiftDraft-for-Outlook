@@ -231,7 +231,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
 
     border-radius: 50px !important; 
     background: #faf9f8;
-    border: 1px solid #edebe9; 
+    border: 1px solid #edebe9 !important; 
 
 }
 
