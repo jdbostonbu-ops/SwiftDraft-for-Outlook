@@ -13,7 +13,8 @@
 # 🛠️ Tech Stack & Requirements: 
 - This project is developed in VS Code and adheres to modern web standards while meeting specific course requirements for external file management.
 - HTML5: Structural layout for the web interface and the email templates.CSS3 (External): Styling for the website UI and the icon picker.
-- JavaScript (External): Logic for DOM manipulation, icon replacement, and the Clipboard API.VS Code: Primary development and debugging environment.
+- JavaScript (External): Logic for DOM manipulation, icon replacement, and the Clipboard API.
+- VS Code: Primary development and debugging environment.
 
 # 🚀 The WorkflowSelect: 
 - Choose a pre-made announcement template from the SwiftDraft gallery.
