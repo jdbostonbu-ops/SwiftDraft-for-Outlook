@@ -15,8 +15,12 @@ const emailTemplates = {
     announcement: { icon: "📢", title: "Company Announcement", body: "We have some exciting news to share! Our team has reached a major milestone.", color: "#f3f2f1" },
     invite: { icon: "📅", title: "You're Invited!", body: "Join us for our upcoming team networking event this Friday.", color: "#e1f5fe" },
     alert: { icon: "⚠️", title: "Urgent: Weather Update", body: "Due to hazardous conditions, the office is closed today. Please work remotely.", color: "#fff4ce" },
-    congrats: { icon: "🎉", title: "Kudos to the Team!", body: "Celebrating the successful launch of our latest project. Great job everyone!", color: "#dff6dd" }
+    congrats: { icon: "🎉", title: "Kudos to the Team!", body: "Celebrating the successful launch of our latest project. Great job everyone!", color: "#dff6dd" },
+    reminder: { icon: "⏰", title: "Quick Reminder", body: "Just a heads-up that our meeting has been moved to the main conference room. See you there!", color: "#f3e5f5" },
+    feedback: { icon: "📝", title: "Your Feedback Matters", body: "We want to hear from you! Please take 2 minutes to share your thoughts on our new office workflow.", color: "#fff3e0" }
 };
+
+
 
 //  RENDER ICONS (Search & Filter Logic)
 function renderIcons() {
