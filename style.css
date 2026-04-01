@@ -44,7 +44,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
 .icon-explorer {
     width: 100%;
     background: #faf9f8 !important;
-    
+    padding: 30px;
     border-radius: 12px !important;
     border: 1px solid #edebe9 !important;
 }
@@ -231,7 +231,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
 
     border-radius: 50px !important; 
     background: #ffffff !important;
-    padding: 2px 2px !important;
+    padding: 5px 5px !important;
     font-size: 14px !important;
     border: 1px solid #d1d1d1 !important;
     
