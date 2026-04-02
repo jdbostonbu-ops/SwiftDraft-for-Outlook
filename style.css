@@ -229,7 +229,7 @@ h1 { color: #0078d4; } /* Outlook Blue */
 
 .template-btn {
 
-   
+    border-radius: 5px !important; 
     background: #ffffff !important;
     padding: 2px 4px !important;
     font-size: 11px !important;
