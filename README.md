@@ -11,7 +11,7 @@
 - Responsive Email Logic: Uses table-based HTML architecture to ensure designs don't break in the Outlook rendering engine.
 
 # 🛠️ Tech Stack & Requirements: 
-- # Compatibility: Mobile iOS/Table/iPad
+- **Compatibility**: Mobile iOS/Table/iPad
 - This project is developed in VS Code and adheres to modern web standards while meeting specific course requirements for external file management.
 - HTML5: Structural layout for the web interface and the email templates.CSS3 (External): Styling for the website UI and the icon picker.
 - JavaScript (External): Logic for DOM manipulation, icon replacement, and the Clipboard API.
