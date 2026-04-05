@@ -4,7 +4,9 @@
 
 ## 👤 Author
 **Jacqueline**  
-[Check out my GitHub Profile](https://github.com/jdbostonbu-ops)
+[Check out my GitHub Profile](https://github.com/jdbostonbu-ops)  
+
+🚀 **[Launch SwiftDraft for Outlook](https://jdbostonbu-ops.github.io/SwiftDraft-for-Outlook/)**
 
 # 🌟 Key Features
 - Rapid Announcement Templates:
@@ -13,6 +15,19 @@
 - Live Edit Preview: Users can modify text and icons in a real-time "What You See Is What You Get" (WYSIWYG) interface.
 - Smart Copy for Outlook: Integrated JavaScript logic that packages the rich HTML/CSS design for a perfect paste directly into the Outlook desktop or web app.
 - Responsive Email Logic: Uses table-based HTML architecture to ensure designs don't break in the Outlook rendering engine.
+
+### 🌐 Browser & Device Compatibility
+
+
+| Browser / Device | Status | Performance Notes |
+| :--- | :--- | :--- |
+| **All Desktop Browsers** | ✅ Optimized | Full support for Outlook Web (OWA) and clipboard automation. |
+| **iPad / Tablets** | ✅ Optimized | High-performance drafting with touch-to-copy functionality. |
+| **iPhone (iOS)** | ✅ Compatible | Optimized for quick-access mobile drafting and cloud sync. |
+
+> **🚀 Ecosystem Feature: Seamless Sync**
+> SwiftDraft is fully compatible with the **Universal Clipboard**. During testing, drafts copied via the "Copy" button on **iPhone (iOS)** were immediately available for pasting on **MacBook Air**, enabling a fluid, multi-device workflow.
+
 
 # 🛠️ Tech Stack & Requirements: 
 - **Compatibility**: Mobile iOS/Table/iPad
