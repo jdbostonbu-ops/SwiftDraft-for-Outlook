@@ -16,7 +16,7 @@
 - Smart Copy for Outlook: Integrated JavaScript logic that packages the rich HTML/CSS design for a perfect paste directly into the Outlook desktop or web app.
 - Responsive Email Logic: Uses table-based HTML architecture to ensure designs don't break in the Outlook rendering engine.
 
-### 🌐 Browser & Device Compatibility
+# 🌐 Browser & Device Compatibility
 
 
 | Browser / Device | Status | Performance Notes |
