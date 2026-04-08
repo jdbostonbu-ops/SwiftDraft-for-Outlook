@@ -21,7 +21,7 @@
 
 | Browser / Device | Status | Performance Notes |
 | :--- | :--- | :--- |
-| **Google Chromes** | ✅ Optimized | Full support for Outlook Web (OWA) and clipboard automation. |
+| **Google Chrome** | ✅ Optimized | Full support for Outlook Web (OWA) and clipboard automation. |
 | **Firefox** | ✅ Optimized | Full support for Outlook Web (OWA) and clipboard automation. |
 | **Microsoft Edge** | ✅ Optimized | Full support for Outlook Web (OWA) and clipboard automation. |
 | **Safari** | ✅ Optimized | Full support for Outlook Web (OWA) and clipboard automation. |
